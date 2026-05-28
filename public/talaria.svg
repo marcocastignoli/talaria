@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Talaria</title>
+  <path d="M10 38 L54 38 Q56 38 55 40 L52 46 Q51 48 49 48 L15 48 Q13 48 12 46 L9 40 Q8 38 10 38 Z" fill="currentColor"/>
+  <path d="M14 38 L50 38 L48 30 L16 30 Z" fill="currentColor" opacity="0.6"/>
+  <path d="M16 30 Q22 14 32 14 Q42 14 48 30" stroke="currentColor" stroke-width="2" fill="none" opacity="0.9"/>
+  <path d="M48 30 Q56 22 60 26 Q58 32 50 34 Z" fill="currentColor"/>
+  <path d="M16 30 Q8 22 4 26 Q6 32 14 34 Z" fill="currentColor"/>
+  <path d="M48 30 Q54 26 58 28" stroke="currentColor" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M16 30 Q10 26 6 28" stroke="currentColor" stroke-width="1" fill="none" opacity="0.5"/>
+</svg>
