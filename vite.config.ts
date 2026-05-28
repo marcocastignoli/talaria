@@ -19,6 +19,12 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['talaria.svg'],
+      workbox: {
+        // lib-sourcify + viem + ethers stack produces a ~4–5 MB chunk; bump the
+        // precache cap. Better long-term fix: lazy-load lib-sourcify behind the
+        // Verification tab only.
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
+      },
       manifest: {
         name: 'Talaria',
         short_name: 'Talaria',
